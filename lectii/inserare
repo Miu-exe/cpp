@@ -1,0 +1,5 @@
+inserare
+	for (int i = ; i>= p ; i--)
+		v[i + 1] = v[i];
+v[p] =x;
+n++;

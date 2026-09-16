@@ -1,0 +1,13 @@
+Cautare Liniara. Stergere
+
+bool gasit = false;
+for (int i = 0; i < n; i++)
+	if (v[i] == x) {
+		gasit = true;
+		break;
+	}
+
+
+
+
+
