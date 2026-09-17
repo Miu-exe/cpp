@@ -22,4 +22,5 @@ int main() {
         dif = maxp - minp - 1;
     }
     cout <<dif;
+    //done
 }
