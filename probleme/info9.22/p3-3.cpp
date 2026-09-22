@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//P3.3 (Lucru individual): Să se ordoneze descrescător un vector și apoi să se afișeze elementele unice
+//
 int main () {
     int n, v[10001] = {0}, max = -1;;
     cin >> n;
