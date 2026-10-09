@@ -1,0 +1,26 @@
+if in python
+if instructiune:
+    execute stuf
+ex: 
+varsta = 18
+if varsta <= 18:
+    print("Major")
+
+if coditie:
+    execute
+else:
+    execute
+
+exemplu:
+varsta = int(input("Vârsta: "))
+if varsta >= 18:
+    print("Major")
+else:
+    print("Minor")
+
+exemplu par / impar
+n = int(input("n = "))
+if n % 2 == 0:
+    print("Par")
+else:
+    print("Impar")
