@@ -1,4 +1,4 @@
-#10 probleme de exersare (use elif as much as possible)
+#10 probleme de exersare 
 #1. Aplică o reducere de 10% unui produs de minimum 100 lei.
 #2. Calculează salariul din număr de ore × tarif.
 #3. Calculează numeric IMC-ul din greutate și înălțime.
