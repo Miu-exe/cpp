@@ -15,24 +15,21 @@ int main() {
     int n;
     long long s = 1;
     cin >> n;
-    if (n == 1) {
+    if (n < 3) {
         cout << 0;
         return 0;
     }
-    if (n == 2) {
-        cout << 1;
+    if (n == 3) {
+        cout << 1 <<"\n";
         return 0;
     }
-    //soo acording wo wikipaedia
-    /* este formula pentru a triangula orice poligon convex in timp linia care sta in urmatorul mod
-    avem n nr de varfuri si s care ii nr cautat
-    avem formula s = (n(n+1)(n+2)..(2n-4)) / (n-2)!*/
-    /// keep in mind about nr lui catalan
-    for (int i = n; i < (2*n)-3; i++) {
-        s *= i;
+    
+    long long p1 = 1;
+    for (int i = n; i <= (2*n-4); i++) {
+        p1 *= i;
     }
-    //n -= 2;
-    s /= factorial((n-2));
-    cout << s;
+    cout << p1 << endl;
+    int result = p1 / factorial(n-2);
+    cout << result;
     return 0;
 }
